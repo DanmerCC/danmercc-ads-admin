@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node prisma/seed-raw.js",
-    "test:anuncios-db": "node scripts/test-anuncios-db.js"
+    "seed": "node prisma/seed-raw.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
